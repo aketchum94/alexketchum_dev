@@ -14,7 +14,7 @@ export default {
   name: 'HomePage',
   props: {
     msg: String,
-    default(): 'YO YO Ma'
+    hello: Number
   }
 }
 </script>

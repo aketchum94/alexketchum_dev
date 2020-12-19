@@ -2,13 +2,13 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {
-    extend: {},
+    extend: {}
   },
   plugins: [
     require('tailwindcss')('tailwind.js'),
-    require('autoprefixer')(),
-  ],
+    require('autoprefixer')()
+  ]
 }
